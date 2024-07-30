@@ -1,0 +1,284 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 252, 246);
+    background-image: url(./images/wallpapersden.com_night-coding-landscape-sunset_10114x5562.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+#header-container {
+    max-width: 100%
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.header-navbar {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    
+}
+
+nav a {
+    color: white !important;
+    cursor: pointer;
+}
+
+nav a:hover {
+    opacity: 0.5;
+}
+
+nav a:active {
+    opacity: 0.3;
+}
+
+#ice {
+    font-family: "Righteous", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+/* End of Navbar */
+
+/* Start of Landing */
+
+#container-landing {
+    max-width: 100%;
+    text-align: center;
+    font-family: "Righteous", sans-serif;
+    background-image: url(./images/40bf5022f099e7030c11e17e50f4b3da.png);
+    background-repeat: no-repeat;
+    background-position: 50% 69%;
+}
+
+.img-intro {
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.profile-pic {
+    margin-top: 15px;
+    width: 220px;
+    border-radius: 150px;
+  
+    
+}
+
+.name-intro {
+    display: inline-block;
+    text-align: center;
+    margin-top: 35px;
+    color: rgb(238, 238, 238);
+    
+    
+
+}
+
+.background-info {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+/* End of Landing Page */
+
+/* Start of My Projects */
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-family: "Righteous", sans-serif;
+    
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.card {
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+
+}
+
+.card-content{
+    padding: 16px;
+}
+
+.card-content h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+
+}
+
+.card-content p{
+    color: #666;
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+.card-content .btn{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: white;
+
+
+}
+
+/* End of My Projects */
+
+
+/* Other Tools */
+.other-tools-container{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+
+
+
+}
+
+.tools img {
+
+    width: auto;
+    height: auto;
+    
+    
+}
+
+ /* End of Tools */
+
+ /* Start of Contact Us */
+
+ h3 {
+    font-family: "Righteous", sans-serif;
+ }
+ .contact {
+    min-height: 100vh;
+    background-color: #e8f0fe;
+    padding: 50px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+
+ }
+
+ .container{
+    max-width: 800px;
+    margin: 0 auto;
+
+ }
+
+ .container h3 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+
+ }
+
+ .contact-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+ }
+
+ .contact-form{
+    text-align: left;
+ }
+
+ .contact-form h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+
+ }
+
+ .form-group {
+    margin-bottom: 20px;
+
+ }
+
+ input, textarea{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f8f9fa;
+    color: #333;
+
+ }
+
+ input:focus,
+ textarea:focus{
+    outline: none;
+    box-shadow: 0 0 8px #bbb;
+ }
+
+ button{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+
+ }
+
+ button:hover{
+    background-color: #45a049;
+
+ }
+
+ .contact-info {
+    text-align: left;
+ }
+
+ .contact-info h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+ }
+
+ .contact-info{
+    margin-bottom: 10px;
+    color: #555;
+ }
+
+ .contact-info i{
+    
+ }
+
+
+
+
+ 
+
